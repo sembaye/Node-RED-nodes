@@ -1,0 +1,19 @@
+{
+    "name"         : "node-red-nodes",
+    "version"      : "0.0.1",
+    "description"  : "Node-RED-nodes package to hold the test framework ONLY - use npm to install individual nodes",
+    "license"      : "MIT",
+    "repository"   : {
+        "type":"git",
+        "url":"https://github.com/sembaye/node-red-nodes"
+    },
+    "contributors": [
+        {"name": "SE"}
+    ],
+    "keywords": [
+        "Node-RED", "nodes"
+    ],
+    "devDependencies": {
+
+    }
+}
