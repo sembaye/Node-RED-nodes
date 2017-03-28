@@ -1,19 +1,21 @@
 {
-    "name"         : "node-red-nodes",
-    "version"      : "0.0.1",
-    "description"  : "Node-RED-nodes package to hold the test framework ONLY - use npm to install individual nodes",
-    "license"      : "MIT",
-    "repository"   : {
+  "name": "node-red-contrib-num2hex32",
+  "version": "1.0.0",
+  "description": "A Node-RED node that converts a numbers into a unsigned hex 32 bit value.",
+  "main": "num2hex32.js",
+  "keywords": ["node-red, num2hex"],
+  "dependencies": {
+        "numberconverter": "~1.0.4"
+  },
+  "repository" : {
         "type":"git",
-        "url":"https://github.com/sembaye/node-red-nodes"
+        "url":"https://github.com/sembaye/node-red-nodes/tree/master/num2hex32"
     },
-    "contributors": [
-        {"name": "SE"}
-    ],
-    "keywords": [
-        "Node-RED", "nodes"
-    ],
-    "devDependencies": {
-
-    }
+   "node-red"      : {
+        "nodes"     : {
+            "num2hex32": "num2hex32.js"
+        }
+    },
+  "author": "",
+  "license": "MIT"
 }
