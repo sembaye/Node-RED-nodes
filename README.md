@@ -10,8 +10,6 @@ Run the following command in your Node-RED user directory (typically `~/.node-re
 
         npm i node-red-contrib-num2hex32
 
-or 
-
 ## Contributing
 -----------
 Patches/Pull-requests are always welcome. For simple typos and single line fixes please just raise an issue pointing out our mistakes. Clearly describe the issue including steps to reproduce when it is a bug.
