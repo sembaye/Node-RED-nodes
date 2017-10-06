@@ -8,7 +8,7 @@ A simple Node-RED node that converts a numbers into a unsigned hex 32 bit value.
 
 Run the following command in your Node-RED user directory (typically `~/.node-red`):
 
-        npm i node-red-contrib-num2hex32
+        npm install node-red-contrib-num2hex32
 
 ## Contributing
 -----------
